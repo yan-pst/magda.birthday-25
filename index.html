@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Happy 25th Birthday Magda 🌻</title>
+  <meta name="description" content="A birthday gift from Tyo to Magda">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader">
+    <div class="loader-card">
+      <div class="loader-flower">🌻</div>
+      <h2>Sedang membuka seluruh kenangan kita...</h2>
+      <p id="loaderText">Mengumpulkan foto...</p>
+      <div class="bar"><span></span></div>
+    </div>
+  </div>
+
+  <div class="topbar">
+    <button id="musicBtn">🎵 Play Music</button>
+    <button id="missBtn">💌 Kangen Tyo?</button>
+  </div>
+  <audio id="bgm" loop src="assets/music/music.m4a"></audio>
+
+  <header class="hero">
+    <div class="stars"></div>
+    <div class="sun s1">🌻</div><div class="sun s2">💛</div><div class="sun s3">✨</div><div class="sun s4">🌼</div>
+    <div class="hero-glow"></div>
+    <div class="hero-card reveal">
+      <p class="eyebrow">a small universe made only for you</p>
+      <h1 class="handwrite">Happy 25th Birthday, Magda</h1>
+      <p>Untuk perempuan yang membuat dunia terasa lebih hangat. Hadiah kecil dari Tyo—dibuat dari jauh, tapi dengan hati yang dekat.</p>
+      <a href="#letter" class="btn">Buka Hadiah 🎁</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="letter" class="section letter-section">
+      <div class="container two">
+        <div class="envelope-card reveal" onclick="openMainLetter()">
+          <div class="envelope">
+            <div class="flap"></div>
+            <div class="body-env">💌</div>
+          </div>
+          <h2>Ketuk Amplop Ini</h2>
+          <p>Ada surat kecil dari Tyo untuk Magda.</p>
+        </div>
+        <div class="cover-photo reveal">
+          <span class="tape t1"></span><span class="tape t2"></span>
+          <img src="assets/photos/photo01.jpg" alt="Magda and Tyo">
+          <span>our favorite little universe</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section story">
+      <div class="container">
+        <h2 class="reveal">🏍️ Our Story</h2>
+        <div class="timeline">
+          <div class="tl reveal"><b>23 Agustus</b><span>Riding bareng. Di jalan itu kamu bilang iya. Hari ketika cerita kita benar-benar dimulai.</span></div>
+          <div class="tl reveal"><b>Kenangan Kecil</b><span>Dari makan sederhana, foto random, jalan bareng, sampai hal-hal kecil yang ternyata jadi sangat berharga.</span></div>
+          <div class="tl reveal"><b>LDR Indonesia–Australia</b><span>Jarak memang nggak mudah, tapi hatiku tetap pulang ke kamu.</span></div>
+          <div class="tl reveal"><b>Januari</b><span>Semoga jadi bulan ketika jarak berubah jadi peluk.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ldr">
+      <div class="container">
+        <h2 class="reveal">🌏 Walaupun Jauh...</h2>
+        <p class="sub reveal">Indonesia dan Australia boleh terpisah ribuan kilometer. Tapi rasa sayangku tetap tahu arah pulang.</p>
+        <div class="map-card reveal">
+          <div class="country">🇮🇩<span>Magda</span></div>
+          <div class="line"><i></i><b>❤️</b></div>
+          <div class="country">🇦🇺<span>Tyo</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-sec">
+      <div class="container">
+        <h2 class="reveal">📸 25 Foto Kenangan</h2>
+        <p class="sub reveal">Setiap foto di halaman ini adalah potongan cerita kita. Ada tawa, ada perjalanan, ada perjuangan, dan semuanya berharga buat aku.</p>
+        <div id="gallery" class="gallery"></div>
+      </div>
+    </section>
+
+    <section class="section reasons-sec">
+      <div class="container">
+        <h2 class="reveal">❤️ 25 Alasan Aku Sayang Magda</h2>
+        <p class="sub reveal">Klik kartunya satu per satu. Jangan buru-buru, setiap kartu punya satu alasan kecil dari hati Tyo.</p>
+        <div id="reasons" class="reasons"></div>
+      </div>
+    </section>
+
+    <section class="section open-sec">
+      <div class="container">
+        <h2 class="reveal">💌 Open When Letters</h2>
+        <p class="sub reveal">Buka saat kamu butuh Tyo sedikit lebih dekat.</p>
+        <div id="openWhen" class="letters"></div>
+      </div>
+    </section>
+
+    <section class="section voucher-sec">
+      <div class="container">
+        <h2 class="reveal">🎁 Love Vouchers</h2>
+        <p class="sub reveal">Klik kotak hadiahnya. Ada beberapa hadiah kecil yang bisa kamu klaim nanti 😆</p>
+        <div id="vouchers" class="vouchers"></div>
+      </div>
+    </section>
+
+    <section class="section video-sec">
+      <div class="container">
+        <h2 class="reveal">🎥 Video Dari Tyo</h2>
+        <div class="cinema reveal">
+          <div class="screen">
+            <video controls playsinline>
+              <source src="assets/video/birthday_message.mp4" type="video/mp4">
+              Videonya belum tersedia.
+            </video>
+          </div>
+          <p>Kalau kangen, bagian ini boleh diputar lagi kapan saja. ❤️</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section countdown-sec">
+      <div class="container">
+        <h2 class="reveal">⏳ Countdown Sampai Ketemu Lagi</h2>
+        <p class="sub reveal">Saat countdown ini selesai, semoga jarak berubah jadi peluk.</p>
+        <div class="countdown reveal">
+          <div><strong id="days">0</strong><span>Hari</span></div>
+          <div><strong id="hours">0</strong><span>Jam</span></div>
+          <div><strong id="minutes">0</strong><span>Menit</span></div>
+          <div><strong id="seconds">0</strong><span>Detik</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wishes">
+      <div class="container">
+        <div class="wish-card reveal">
+          <h2>🌻 Harapan Untuk Magda</h2>
+          <p>Semoga di usia 25 ini kamu selalu sehat, bahagia, dikelilingi orang-orang baik, dimudahkan dalam pekerjaan, cita-cita, dan semua hal yang sedang kamu perjuangkan.</p>
+          <p>Semoga semua kebaikan yang selama ini kamu berikan ke orang lain kembali ke kamu berkali-kali lipat.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="final">
+      <div class="night-stars"></div>
+      <div class="final-inner reveal">
+        <p>Terima kasih sudah hadir di hidupku.</p>
+        <p>Terima kasih sudah menjadi rumah.</p>
+        <p>Dan meskipun sekarang ada jarak...</p>
+        <h2>Aku masih memilih kamu.<br>Setiap hari.</h2>
+        <p class="january">Sampai ketemu di Januari. ❤️</p>
+        <button id="loveBtn" class="btn big">I Love You, Magda 🌻</button>
+      </div>
+    </section>
+  </main>
+
+  <div id="modal" class="modal">
+    <div id="modalBox" class="modal-box">
+      <button id="closeModal" class="x">×</button>
+      <h2 id="modalTitle"></h2>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
